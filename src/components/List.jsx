@@ -84,7 +84,7 @@ const List =  () => {
       try {
         const response = await axios.get(`https://todoapp20240620110428.azurewebsites.net/api/ToDo/Category/${category}`);
         setFilteredTodos(response.data.data);
-        console.log(respopnse);
+      
       } catch (error) {
         console.error('Error filtering ToDo items by category', error);
       }
