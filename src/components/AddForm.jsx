@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import axios from 'axios';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -42,6 +42,7 @@ const AddForm = ({ onAdd }) => {
           value={description}
           onChange={(e) => setDescription(e.target.value)}
           className="w-full px-2 py-1 border rounded"
+          required
         />
       </div>
       <div className="mb-2">

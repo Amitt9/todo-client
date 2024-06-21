@@ -35,7 +35,6 @@ const List =  () => {
       try {
         const response = await axios.get('https://todoapp20240620110428.azurewebsites.net/api/ToDo');
        if(response.status === 200){
-        console.log(response);
         setTodos(response.data.data);
         setFilteredTodos(response.data.data);
        }
@@ -47,7 +46,6 @@ const List =  () => {
       }
     };
 
-    console.log(todos)
   
     const searchTodos = async (term) => {
         if (!term) {
