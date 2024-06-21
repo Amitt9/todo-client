@@ -2,9 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### Live link 
+Open https://todoapphost.netlify.app/ to view deployed project
+
 ## Available Scripts
 
 In the project directory, you can run:
+### `npm install`
+Installs the all required dependancies
 
 ### `npm start`
 
